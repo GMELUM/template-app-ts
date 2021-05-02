@@ -1,5 +1,4 @@
 export type TConstant = "SET_USER_TOKEN";
-export type TMethods = "setUserToken";
 
 /** Системные типы */
 export type TGetState = () => TState;

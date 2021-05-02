@@ -14,8 +14,11 @@ class App extends Component<AppProps & TProps, AppState> {
   }
 
   render() {
-    const { action } = this.props;
-    return (<div></div>)
+    const { action, vk_token } = this.props;
+
+    action("SET_USER_TOKEN", { vk_token: "LHJGokyugkYUHGkuyghfuyg67kliUHJG" });
+
+    return (<div>{vk_token}</div>)
   }
 }
 
